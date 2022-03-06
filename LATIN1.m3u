@@ -89,12 +89,6 @@ https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=129&f=HLSAD&s=hkc
 https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=158&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj2688ztkba2zbj81pcbapt16ahpc8jpaaack2a8t18zpcajhxpa22bbzx8jzxbjhjzkxpkpp68ah2x2aek1ta82bjvjjhvpcbhj8ztbvx1xkj2xjcxvtkb1exc1jvpeah6ecbvex8jppckeva8a22hxhhj2c2kxzea1j2xaepkebcz22k61thjec2hph2bae18jtekj8h1cz12z61jjcbjtcv1eeptkhztbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8
 #EXTINF: -1 tvg-name="CINECANAL" tvg-logo="https://iparatodos.com.ar/uploads/canal/imagenes/CINECANAL.png" group-title="PELICULAS", CINECANAL
 https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=149&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj2688ztkba2zbj81pcbapt16ahpc8jpaaack2a8t18zpcajhxpa22bbzx8jzxbjhjzkxpkpp68ah2x2aek1ta82bjvjjhvpcbhj8ztbvx1xkj2xjcxvtkb1exc1jvpeah6ecbvex8jppckeva8a22hxhhj2c2kxzea1j2xaepkebcz22k61thjec2hph2bae18jtekj8h1cz12z61jjcbjtcv1eeptkhztbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8
-#EXTINF: -1 tvg-name="Shang-Chi y la leyenda de los Diez Anillos" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5jQH6SZIPU7lMk1-xO6kUU5alqb5AZIVcw&usqp=CAU" group-title="ESTRENOS", Shang-Chi y la leyenda de los Diez Anillos
-http://vod.tuxchannel.tv/peliculas/720/red%20notice%202021.mkv
-#EXTINF: -1 tvg-name="Amor Sin Barreras" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-fDOZ1IeEXfB6EcxxnRmxpPS3zZwry-p4lw&usqp=CAU" group-title="ESTRENOS", Amor Sin Barreras 
-http://tv.nousiptv.com:8080/movie/alberto123/alberto321/1119641.mkv
-#EXTINF: -1 tvg-name="Sin respiro" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-fDOZ1IeEXfB6EcxxnRmxpPS3zZwry-p4lw&usqp=CAU" group-title="ESTRENOS",Sin respiro 
-http://tv.nousiptv.com:8080/movie/alberto123/alberto321/1119640.mkv
 #EXTINF: -1 tvg-name="Sin Salida" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOckqM52gVfz78xjkZisIfiHKPLGjzNT2Krw&usqp=CAU" group-title="ESTRENOS",Sin Salida 
 http://tv.nousiptv.com:8080/movie/alberto123/alberto321/1119639.mkv
 #EXTINF: -1 tvg-name="Pursuit" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5_rkc5y4jpG_CDzUIqcT0oV4m2KBg8OkHFA&usqp=CAU" group-title="ESTRENOS", Pursuit 
@@ -127,4 +121,49 @@ http://tv.nousiptv.com:8080/movie/alberto123/alberto321/1119157.mkv
 http://vod.tuxchannel.tv/peliculas/720/phobias%202021.mkv
 #EXTINF: -1 tvg-name="My Son" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgNT6MkSgiq1sxsiXMe1eNhDnlgJrhAyDcQkHV1UdD3IlreBjxyZ2fcUkx&s=10" group-title="ESTRENOS",My Son 
 http://149.56.13.137:999/PELISSD/my-son-2021-Latino.mkv
-
+#EXTINF: -1 tvg-name="Ray Donovan: The Movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2QuzyrVsZ6fo9FsdsdQZOIQJgGeKRV2WpAA&usqp=CAU" group-title="ESTRENOS", Ray Donovan: The Movie 
+http://tv.nousiptv.com:8080/movie/alberto123/alberto321/1118752.mkv
+#EXTINF: -1 tvg-name="Atrapada en el fondo del mar" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIa3Nhr_UCGYXV0HrDnzEA3o1dz-18EWE5vkLGdMQS8ifUoQRzCOKPh78&s=10" group-title="ESTRENOS", Atrapada en el fondo del mar
+http://vod.tuxchannel.tv/peliculas/720/breaking%20surface%202020.mkv
+#EXTINF: -1 tvg-name="Agentes 355" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsmJAAxG9c1A42DI5fOOumLdiDLOf9z4lYXePHnf3QHUeasWAUdRKIUkA&s=10" group-title="ESTRENOS",Agentes 355 
+http://tv.nousiptv.com:8080/movie/alberto123/alberto321/1119129.mkv
+#EXTINF: -1 tvg-name="Catwoman: Hunted" tvg-logo="https://aztechin.com/wp-content/uploads/2022/02/Catwoman-hunted.jpg" group-title="ESTRENOS",Catwoman: Hunted 
+http://tv.nousiptv.com:8080/movie/alberto123/alberto321/1119156.mkv
+#EXTINF: -1 tvg-name="Corre,Escondete,Pelea" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9IuQAZfwDEmgtDAso0ugQqtZ4cxWtT4PK7g-CzOPCxJswUANogUuaoczN&s=10" group-title="ESTRENOS",Corre,Escondete,Pelea 
+http://tv.nousiptv.com:8080/movie/alberto123/alberto321/1118965.mkv
+#EXTINF: -1 tvg-name="Emboscada" tvg-logo="https://www.justwatch.com/images/backdrop/258968165/s640/american-siege" group-title="ESTRENOS",Emboscada 
+http://vod.tuxchannel.tv/peliculas/720/american%20siege%202022.mkv
+#EXTINF: -1 tvg-name="Monstermanía" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2dIw0FrBIpSULHtrTizGBsec0-V6vI0kb_A&usqp=CAU" group-title="ESTRENOS",Monstermanía 
+http://ultra-premium-pro.xyz:8080/movie/VSGMEGA22/vopJide2U2/68552.mkv
+#EXTINF: -1 tvg-name="Copshop" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMxgBLIA9VYi0XH2JDixXJMyLGKWDAcGPo3w&usqp=CAU" group-title="ESTRENOS",Copshop 
+http://tv.nousiptv.com:8080/movie/alberto123/alberto321/1116997.mkv
+#EXTINF: -1 tvg-name="The Fallout: La vida después" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJT6bSLBa3VjK9hzgB4Xu2GT3neVwAZvpAST_iZ8cQszUcS6d_X8tR8zo&s=10" group-title="ESTRENOS",The Fallout: La vida después 
+http://149.56.13.137:999/PELISSD/the-fallout-2022-Latino.mkv
+#EXTINF: -1 tvg-name="Tom and Jerry Arre Vaquero" tvg-logo="https://images.moviefit.me/t/c/b/1/669506-tom-jerry-cowboy-up.webp" group-title="ESTRENOS",Tom and Jerry Arre Vaquero 
+http://149.56.13.137:999/PELISSD/tom-and-jerry-cowboy-up-2022-Latino.mkv
+#EXTINF: -1 tvg-name="La Era De Hielo Las Aventuras De Buck" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZB9cskcmEl-RUbY1DoEL8zW9zpYH6L8UnLQ&usqp=CAU" group-title="ESTRENOS",La Era De Hielo Las Aventuras De Buck 
+http://149.56.13.137:999/PELISSD/the-ice-age-adventures-of-buck-wild-2022-Latino.mkv
+#EXTINF: -1 tvg-name="spider-man sin camino a casa" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0BruPW1T3HriW-DPrPZH7STGjgYyFNNsOD3Zx9JJfum_UN3rIK9n2THo&s=10" group-title="ESTRENOS",spider-man sin camino a casa 
+http://tv.nousiptv.com:8080/movie/alberto123/alberto321/1118291.mkv
+#EXTINF: -1 tvg-name="prisioneros de ghostland" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh3PUfCNVYGPSbeyRxrimz5_ZT6Lf8S84okw&usqp=CAU" group-title="ESTRENOS",prisioneros de ghostland 
+http://vod.tuxchannel.tv/peliculas/720/prisoners%20of%20the%20ghostland%202021.mkv
+#EXTINF: -1 tvg-name="Resident Evil: Bienvenidos a Raccoon City" tvg-logo="https://as01.epimg.net/meristation/imagenes/2021/11/23/reportajes/1637650861_581438_1637656712_noticia_normal.jpg" group-title="ESTRENOS",Resident Evil: Bienvenidos a Raccoon City 
+http://vod.tuxchannel.tv/peliculas/720/resident%20evil%20welcome%20to%20raccoon%20city%202021.mkv
+#EXTINF: -1 tvg-name="One Shot" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxfbqgFDOttro80mB3eMASMcdfqn6HDstjUgLvLheLCD3VvC3B81suT1dY&s=10" group-title="ESTRENOS",One Shot
+http://vod.tuxchannel.tv/peliculas/720/one%20shot%202021.mkv
+#EXTINF: -1 tvg-name="Hotel Transylvania: transformanía" tvg-logo="https://static.fanart.tv/fanart/movies/585083/moviethumb/hotel-transylvania-transformania-613a06cf93124.jpg" group-title="ESTRENOS",Hotel Transylvania 
+http://vod.tuxchannel.tv/peliculas/720/hotel%20transylvania%204%20transformania%202022.mkv
+#EXTINF: -1 tvg-name="Madre Androide" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-vYNAAWAUa8Ou69wVue0npwi836hhqQD__FRsybwSekI6wKbzdrpzBH-r&s=10" group-title="ESTRENOS", Madre Androide
+http://vod.tuxchannel.tv/peliculas/720/mother%20android%202021.mkv
+#EXTINF: -1 tvg-name="Eternals" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU5hohdqnPSY6PdB-rCh4JRjjSDhCSt8YOKw&usqp=CAU" group-title="ESTRENOS",Eternals   
+http://vod.tuxchannel.tv/peliculas/720/eternals%202021.mkv
+#EXTINF: -1 tvg-name="Sing 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXjKEqetvpYJxuuDC7b6_bcff0pwRWKkh5TT2VFqMIEKHSKvzYrgmXsAc&s=10" group-title="ESTRENOS",Sing 2
+http://vod.tuxchannel.tv/peliculas/720/sing%202%202021.mkv
+#EXTINF: -1 tvg-name="Cazafantasmas el legado" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_VD_YxTXX6pyYNaY6JDA5TWGCGtCnhlweWg&usqp=CAU" group-title="ESTRENOS",Cazafantasmas el legado 
+http://vod.tuxchannel.tv/peliculas/720/ghostbusters%20afterlife%202021.mkv
+#EXTINF: -1 tvg-name="South Park: Pos-Covid: El retorno del Covid" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGkZCJPV0EpWXIBCfkwfpkFCDUbVasp_6Ecg&usqp=CAU" group-title="ESTRENOS", South Park: Pos-Covid: El retorno del Covid
+http://vod.tuxchannel.tv/peliculas/720/south%20park%20post%20covid%202021.mkv
+#EXTINF: -1 tvg-name="Encanto" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzhOucg_wp353ou3bTMehwzcKpFUfrSlZggfNYhLrrZTT9F3d7eL4Ls30&s=10" group-title="ESTRENOS",Encanto
+http://vod.tuxchannel.tv/peliculas/720/encanto%202021.mkv
+#EXTINF: -1 tvg-name="Paw Patrol: la película" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmus-jzR1pn0zeZv7QVmgR-q0L0Ww-DG5Nyg&usqp=CAU" group-title="ESTRENOS",Paw Patrol: la película
+http://vod.tuxchannel.tv:80/peliculas/720/paw%20patrol%20the%20movie%202021.mkv
