@@ -2,7 +2,7 @@
 
 
 #EXTINF:-1 group-title="INFANTILES", tvg-id="334dtv.cl", tvg-logo="https://i.imgur.com/9JEnv7G.png", Cartoonito
-https://3.ultimate2019.com/stream/hls/11|user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
+https://3.ultimate2019.com/stream/hls/11|user-agent=Lavf/57.71.101
 
 #EXTINF:-1 tvg-id="51" tvg-logo="https://i.imgur.com/6UTSdAi.png"  group-title="INFANTILES", TOONCAST
 https://3.ultimate2019.com/stream/hls/95|user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
