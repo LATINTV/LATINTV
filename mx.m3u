@@ -11,7 +11,7 @@ https://3.ultimate2019.com/stream/hls/95|user-agent=Dalvik/2.1.0 (Linux; U; Andr
 https://3.ultimate2019.com/stream/hls/3|user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
 
 #EXTINF:-1 tvg-id="34" tvg-logo="https://logo.iptveditor.com/canal5.png" group-title="MEXICO",CANAL 5
-https://3.ultimate2019.com/stream/hls/14.m3u8|user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
+https://3.ultimate2019.com/stream/hls/14|user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
 
 #EXTINF:-1 tvg-id="51" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Sony_Channel_Logo.png" group-title="PREMIUM", SONY
 https://3.ultimate2019.com/stream/hls/498|user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
