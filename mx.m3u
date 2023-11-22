@@ -7,7 +7,7 @@
 https://3.ultimate2019.com/stream/hls/518
 
 #EXTINF:-1 tvg-id="MilenioTV.mx" tvg-name="Milenio Televisión (XHTDMX-TDT2)" tvg-logo="https://raw.githubusercontent.com/ivantapia882804/rasta12/main/Emblems/milen.png"  group-title="INFORMACIÓN" user-agent="Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)", Milenio Televisión (XHTDMX-TDT2)
-https://3.ultimate2019.com/stream/hls/14?ul|user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
+https://3.ultimate2019.com/stream/hls/14?ul|http-user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
 
 #EXTINF:-1 group-title="INFANTILES", tvg-id="334dtv.cl", tvg-logo="https://i.imgur.com/9JEnv7G.png", user-agent="Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)", Cartoonito 
 https://3.ultimate2019.com/stream/hls/11
