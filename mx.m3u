@@ -4,7 +4,7 @@
 #EXTINF:-1, BT Sports 1 HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
-https://3.ultimate2019.com/stream/hls/54.m3u
+https://3.ultimate2019.com/stream/hls/54&type=m3u_plus&output=ts
 
 #EXTINF:-1 tvg-id="MilenioTV.mx" tvg-name="Milenio Televisión (XHTDMX-TDT2)" tvg-logo="https://raw.githubusercontent.com/ivantapia882804/rasta12/main/Emblems/milen.png"  group-title="INFORMACIÓN" user-agent="Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)", Milenio Televisión (XHTDMX-TDT2)
 https://3.ultimate2019.com/stream/hls/14?ul|http-user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
