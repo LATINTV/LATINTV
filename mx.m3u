@@ -64,6 +64,7 @@ https://3.ultimate2019.com/stream/hls/481|user-agent=Dalvik/2.1.0 (Linux; U; And
 https://3.ultimate2019.com/stream/hls/479|user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
 
 #EXTM3U x-tvg-url="https://i.mjh.nz/PlutoTV/mx.xml"
+
 #EXTINF:-1 channel-id="pluto-5e793a7cfbdf780007f7eb75" tvg-id="5e793a7cfbdf780007f7eb75" tvg-logo="https://images.pluto.tv/channels/5e793a7cfbdf780007f7eb75/colorLogoPNG.png" tvg-chno="1" group-title="Pluto TV" , Guía de canales
 https://i.mjh.nz/PlutoTV/5e793a7cfbdf780007f7eb75-alt.m3u8
 
