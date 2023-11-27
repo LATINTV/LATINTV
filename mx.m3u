@@ -2,9 +2,9 @@
 
 
 #EXTINF:-1, BT Sports 1 HD
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G960N Build/LMY47I)
-#EXTVLCOPT:http-user-agent=https://www.tv-gratis.biz/
-https://edge1-ccast-sl.cvattv.com.ar/live/c6eds/Cinemax/SA_Live_dash_enc/Cinemax-avc1_2499968=10001-scale=30000-8428644221649.mp4
+#EXTVLCOPT:
+#EXTVLCOPT:
+http://45.179.164.59:8181/Peliculas/2023/%c2%a1Shazam!.La.furia.de.los.dioses.2023.720p-dual-lat/%c2%a1Shazam!.La.furia.de.los.dioses.2023.720p-dual-lat.mkv
 
 #EXTINF:-1 group-title="LOCALES" user-agent="BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT", Azteca Uno
 #EXTVLCOPT:http-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT
