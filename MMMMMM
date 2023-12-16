@@ -1,0 +1,2974 @@
+Function loadConfig() as Object
+    arr = [
+    
+{   Title: "AZTECA UNO"
+    streamFormat: "autodetect"
+    Logo: "https://x.playerlatino.live//azteca1.png"
+    Stream: ""
+    UserAgent: ""
+    Live: true
+} 
+{   Title: "AZTECA UNO"
+    streamFormat: "autodetect"
+    Logo: "https://x.playerlatino.live//azteca1.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/4/hd"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}  
+{   Title: "AZTECA UNO"
+    streamFormat: "autodetect"
+    Logo: "https://x.playerlatino.live//azteca1.png"
+    Stream: "https://mdstrm.com/live-stream-playlist/609b243156cca108312822a6.m3u8"
+    UserAgent: ""
+    Live: true
+}            
+{   Title: "ADN 40"
+    streamFormat: "autodetect"
+    Logo: "https://x.playerlatino.live//adn40.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/447"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}    
+{   Title: "LAS ESTRELLAS"
+    streamFormat: "autodetect"
+    Logo: "https://x.playerlatino.live/lasestrellas.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/411"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "LAS ESTRELLAS"
+    streamFormat: "autodetect"
+    Logo: "https://x.playerlatino.live/lasestrellas.png"
+    Stream: "https://channel01-notusa.akamaized.net/hls/live/2022749-b/event01/index.m3u8?hdnea=exp=1664336881~acl=/*~hmac=1ec2d2fbd8abe6748c87141ee89bc75436f4eec73a5811fe4190ce6cc435f208"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "LAS ESTRELLAS"
+    streamFormat: "autodetect"
+    Logo: "https://x.playerlatino.live/lasestrellas.png"
+    Stream: "https://channel01.akamaized.net/hls/live/2022749/event01/index.m3u8"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "FORO TV "
+    streamFormat: "autodetect"
+    Logo: "http://descargas.podzone.net/logos/-foro-tv.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/1155869.m3u8"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "IMAGEN TV"
+    streamFormat: "autodetect"
+    Logo: "http://descargas.podzone.net/logos/-imagen-tv.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/341"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "IMAGEN TV"
+    streamFormat: "autodetect"
+    Logo: "http://descargas.podzone.net/logos/-imagen-tv.png"
+    Stream: "http://tv.nousiptv.com:8080/Veronicafleitas/2528/1124600"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "Excelsior Tv"
+    streamFormat:"autodetect"
+    Logo: "https://static.wikia.nocookie.net/logopedia/images/0/02/Excelsior_TV_HD.png/revision/latest?cb=20160619174953"
+    Stream:"https://stream-04.sv4.dailymotion.com/sec(YDiRVmci6dFcTAVfdXnSLpsS_Lru1BkKv3e29JojPW7FzrDpgMOcitxFzbOeIK_H)/dm/3/x82z4if/d/live-1.m3u8#cell=lsv4"
+    Live:true
+}
+{   Title: "CANAL 5"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/canal5.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/14"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "CANAL 5"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/canal5.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/1155866.m3u8"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "MULTIMEDIOS"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Multimedios_Television.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/155"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "Milenio"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Milenio_Television.png"
+    Stream: "https://mdstrm.com/live-stream-playlist/610178c7db32a4112d994650.m3u8"
+    Live: true
+}
+{   Title: "AZTECA 7"
+    streamFormat: "autodetect"
+    Logo: "https://x.playerlatino.live/azteca7.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/5"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "AZTECA 7"
+    streamFormat: "autodetect"
+    Logo: "https://x.playerlatino.live/azteca7.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/1155862.ts"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "A Mas+"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/aplus.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/406"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "A Mas+"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/aplus.png"
+    Stream: "https://mdstrm.com/live-stream-playlist/60b56be1000ea50835fa1e63.m3u8"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "NU9VE"
+    streamFormat: "autodetect"
+    Logo: "https://cdn140.picsart.com/278369393029211.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/1155855.ts"
+    Live: true
+}
+{   Title: "ESTRELLA TV"
+    streamFormat: "autodetect"
+    Logo: "https://x.playerlatino.live/estrellatv.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/177"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "AZ CLIC HD"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/azclic.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/165"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "AZ MUNDO"
+    streamFormat: "autodetect"
+    Logo: "https://imagenes.gatotv.com/logos/canales/oscuros/tv_azteca_mundo-mediano.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/4055.ts"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "AZ CINEMA"
+    streamFormat: "autodetect"
+    Logo: "https://imagenes.gatotv.com/logos/canales/oscuros/tv_azteca_cinema-mediano.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/186"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "ONCE HD"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/canalonce.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/15"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "TELEFORMULA"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/teleformula.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/182"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "TVMAS"
+    streamFormat: "autodetect"
+    Logo: "https://directostv.teleame.com/wp-content/uploads/2017/10/tvmas.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/33365.ts"
+    Live: true
+}
+{   Title: "RT"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/125px-Russia-today-logo.svg.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/781"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+
+
+    ]
+    return arr
+End Function
+
+Function loadConfigNovelas() as Object
+    arr = [
+{   Title: "AZ CORAZON"
+    streamFormat: "autodetect"
+    Logo: "https://imagenes.gatotv.com/logos/canales/oscuros/tv_azteca_corazon-mediano.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/166"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "UNICABLE"
+    streamFormat: "autodetect"
+    Logo: "https://televisa.brightspotcdn.com/7b/b9/1754376d4e608523ff87670c7a4e/canalu.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/98"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "PASIONES"
+    streamFormat: "autodetect"
+    Logo: "https://tvpasiones.com/wp-content/uploads/2017/06/logo_pasiones.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/49168.ts"
+    Live: true
+}
+{   Title: "TLNOVELAS"
+    streamFormat: "autodetect"
+    Logo: "https://4.bp.blogspot.com/-E6b2VsJG0R4/UMeB36zPIhI/AAAAAAAAAoQ/byJ8wF8ArvI/s400/rojo.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/94.m3u8"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "TLNOVELAS"
+    streamFormat: "autodetect"
+    Logo: "https://4.bp.blogspot.com/-E6b2VsJG0R4/UMeB36zPIhI/AAAAAAAAAoQ/byJ8wF8ArvI/s400/rojo.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/4130.ts"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "GALAVISION"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Galavisi%C3%B3n_logo2012.png"
+    Stream: "http://pelicanhosting.xyz:80/max123/max321/152816"
+    Live: true
+}
+{   Title: "UNIVISION"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/univision.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/3793.ts"
+    Live: true
+}
+{   Title: "GLITZ"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/glitz.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/4045.ts"
+    Live: true
+}
+{   Title: "TELEMUNDO INTERNACIONAL"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/telemundo.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/92"
+    Live: true
+}
+{   Title: "A3 Series"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Atreseries_2020_logo.svg/1200px-Atreseries_2020_logo.svg.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/3961.ts"
+    Live: true
+}
+
+
+    ]
+    return arr
+End Function
+
+Function loadConfigCultura() as Object
+    arr = [
+{   Title: "NAT GEO"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/natgeo.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/76"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "ANIMAL PLANET"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/animalplanet.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/3"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "HISTORY"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/history.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/67"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "H2"
+    streamFormat: "autodetect"
+    Logo: "https://imagenes.gatotv.com/logos/canales/oscuros/history_2-mediano.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/718"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "DISCOVERY CHANNEL"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/discoverychannel.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/22"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "DISCOVERY SCIENCE"
+    streamFormat: "autodetect"
+    Logo: "https://www.bellmedia.ca/lede/wp-content/uploads/2014/02/tv1_sci-white.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/1155818.ts"
+    Live: true
+}
+{   Title: "DISCOVERY H&H"
+    streamFormat: "autodetect"
+    Logo:"http://x.playerlatino.live/discoveryhh.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/24"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "DISCOVERY TURBO"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/discoveryturbo.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/28"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "DISCOVERY WORLD"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/World_Discovery_HD_logo.svg/1280px-World_Discovery_HD_logo.svg.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/187"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "DISCOVERY THEATER"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2015_Discovery_theater_HD_logo.svg/1920px-2015_Discovery_theater_HD_logo.svg.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/4073.ts"
+    Live: true
+}
+{   Title: "DISCOVERY TLC"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TLC_USA_logo.png/150px-TLC_USA_logo.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/1155820.ts"
+    Live: true
+}
+
+    ]
+    return arr
+End Function
+
+Function loadConfigInfantil() as Object
+    arr = [
+{   Title: "TOONCAST"
+    streamFormat: "autodetect"
+    Logo: "https://3.bp.blogspot.com/-6TeTUuHgsxI/VrV2aR1efMI/AAAAAAAAGs0/f-yRhAXo-RU/s640/Tooncas_logo_jpg.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/95"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "DISCOVERY KIDS"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_Discovery_Kids_logo.svg/1164px-2016_Discovery_Kids_logo.svg.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/25"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "NICK"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/8/85/Nick_%28Logo%29.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/78"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "Nick Toons"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/nicktoons.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/80"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "CARTOON NETWORK"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/cartoonnetwork.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/17"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "DISNEY CHANNEL"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/disneychannel.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/29"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "Cartoonito"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/cartoonito.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/11"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "BABY TV"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/babytv.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/7"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "NICK JR"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/nickjr.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/798"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "DISNEY JR"
+    streamFormat: "autodetect"
+    Logo: "http://3.bp.blogspot.com/-VvbUqgHc5Pw/VJIJWAJLxfI/AAAAAAAAHi0/A0nDmO29zwk/s1600/Logo%2BDisney_Junior.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/4111.ts"
+    Live: true
+}
+{   Title: "BABY FIRST"
+    streamFormat: "autodetect"
+    Logo: "https://static.wikia.nocookie.net/dreamlogos/images/a/ad/BabyFirst_TV.svg/revision/latest?cb=20170414214501"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/4088.ts"
+    Live: true
+}
+
+
+    ]
+    return arr
+End Function
+
+Function loadConfigPremium() as Object
+    arr = [
+
+{   Title: "HBO"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/hbo.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/62"
+    UserAgent: "https-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
+    Live: true
+}
+{   Title: "HBO HD"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/hbo.png"
+    Stream: "http://208.88.246.11:5473/eventox6/lista/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x¦c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "HBO2"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/hbo2.png"
+    Stream: "http://tv.nousiptv.com:8080/Veronicafleitas/2528/8222"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "HBO2"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/hbo2.png"
+    Stream: "http://208.88.246.11:5473/651HBO2/transco13/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "HBO PLUS"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/hboplus.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/64"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "HBO PLUS"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/hboplus.png"
+    Stream: "http://208.88.246.11:5473/654HBOPlus/transco13/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "HBO XTREME"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/hboxtreme.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/814"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "HBO FAMILY"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/hbofamily.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/63"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "HBO MUNDI"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/800px-HBO_Mundi.svg.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/1143815.ts"
+    Live: true
+}
+{   Title: "HBO POP"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/800px-HBO_Pop.svg.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/8246.ts"
+    Live: true
+}
+{   Title: "HBO SIGNATURE"
+    streamFormat: "autodetect"
+    Logo: "https://www.claro.com.co/portal/recursos/co/cpp/promociones/imagenes/1576097951981-HBO-signature-pequenio-b.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/1155796.ts"
+    Live: true
+}
+
+
+
+    ]
+    return arr
+End Function
+
+Function loadConfigPeliculas() as Object
+    arr = [
+
+{   Title: "DISTRITO COMEDIA"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/DistritoComediaLOGO2018.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/32"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "DISTRITO COMEDIA"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/DistritoComediaLOGO2018.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/4040.ts"
+    Live: true
+}
+{   Title: "COMEDY CENTRAL"
+    streamFormat: "autodetect"
+    Logo: "https://logos-marcas.com/wp-content/uploads/2021/02/Comedy-Central-Logo.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/135"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "COMEDY CENTRAL"
+    streamFormat: "autodetect"
+    Logo: "https://logos-marcas.com/wp-content/uploads/2021/02/Comedy-Central-Logo.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/1158426.ts"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "STAR CHANNEL"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/1024px-Star_Channel_2020.svg.png"
+    Stream: "http://208.88.246.11:5473/202CanalFOXMexico/transco1/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "STAR CHANNEL"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/1024px-Star_Channel_2020.svg.png"
+    Stream: "http://208.88.246.11:5473/andromeda/FOX/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "FX"
+    streamFormat: "autodetect"
+    Logo: "https://logodix.com/logo/587463.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/42"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "FX"
+    streamFormat: "autodetect"
+    Logo: "https://logodix.com/logo/587463.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/4044.ts"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "SONY CHANNEL"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sony_Channel_Logo.png"
+    Stream: "http://208.88.246.11:5473/211sony/transco14/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "SONY CHANNEL"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sony_Channel_Logo.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/4048.ts"
+    Live: true
+}
+{   Title: "UNIVERSAL"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/1280px-Universal_TV_logo.svg.png"
+    Stream: "http://208.88.246.11:5473/andromeda/UNIVERSAL/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "UNIVERSAL"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/1280px-Universal_TV_logo.svg.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/4054.ts"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "STUDIO UNIVERSAL"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Logo_Studio_Universal.svg/1200px-Logo_Studio_Universal.svg.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/84"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "STUDIO UNIVERSAL"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Logo_Studio_Universal.svg/1200px-Logo_Studio_Universal.svg.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/4100.ts"
+    UserAgent: ""
+    Live: true
+}
+{   Title: "WARNER"
+    streamFormat: "autodetect"
+    Logo: "http://img3.wikia.nocookie.net/__cb20130619050550/logopedia/images/thumb/2/27/Warner_Bros._wordless_banner.png/1157px-Warner_Bros._wordless_banner.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/102"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "WARNER HD"
+    streamFormat: "autodetect"
+    Logo: "http://img3.wikia.nocookie.net/__cb20130619050550/logopedia/images/thumb/2/27/Warner_Bros._wordless_banner.png/1157px-Warner_Bros._wordless_banner.png"
+    Stream: "http://208.88.246.11:5473/andromeda/WARNER/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "TNT"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/b/bd/TNT-oficial.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/179"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "TNT HD"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/b/bd/TNT-oficial.png"
+    Stream: "http://208.88.246.11:5473/andromeda/TNT/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "TNT SERIES"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TNT_Serie.svg/649px-TNT_Serie.svg.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/90"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "TNT SERIES HD"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TNT_Serie.svg/649px-TNT_Serie.svg.png"
+    Stream: "http://23.227.145.10:3980/R3$3202/3R1W3$32/38004_.m3u8?token=G4EyTJ5-A9cb_DPaViDA7g&user=1702403363&key=d91f1e50f04c723675c1ea976a63347e8da40c0d"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "SPACE"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/1024px-SpaceLogo.svg.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/83"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "SPACE HD"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/1024px-SpaceLogo.svg.png"
+    Stream: "http://208.88.246.11:5473/andromeda/SPACE/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "A&E"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/A%26E-Network-Logo.svg/1280px-A%26E-Network-Logo.svg.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/1"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "AMC"
+    streamFormat: "autodetect"
+    Logo: "https://www.freepnglogos.com/uploads/amc-png-logo/amc-media-png-logo-1.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/183"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "AXN"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/AXN_Logo_2015.png/800px-AXN_Logo_2015.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/713"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "PARAMOUNT"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/paramount.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/200"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "CINEMAX"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/800px-Cinemax_%28Yellow%29.svg.png"
+    Stream: "http://208.88.246.11:5473/603Cinemax/transco14/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "CINECANAL"
+    streamFormat: "autodetect"
+    Logo: "https://iparatodos.com.ar/uploads/canal/imagenes/CINECANAL.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/18"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "TBS"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/tbs.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/171"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "TCM"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/tcm.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/85"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "SYFY"
+    streamFormat: "autodetect"
+    Logo: "https://www.retronyms.com/consulting/images/syfy-logo.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/151"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "GOLDEN"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_Golden_TV.svg/1200px-Logo_Golden_TV.svg.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/57"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "GOLDEN EDGE"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/goldenedge.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/58"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "GOLDEN PLUS"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Canal_Golden_logo.svg/1920px-Canal_Golden_logo.svg.png"
+    Stream: "https://linear-410.frequency.stream/dist/vix/410/hls/master/playlist.m3u8"
+    Live: true
+}
+{   Title: "GOLDEN PREMIER"
+    streamFormat: "autodetect"
+    Logo: "https://i2.esmas.com/golden/images/golden-premier-logo-menu.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/4091.ts"
+    Live: true
+}
+{   Title: "DE PELICULA"
+    streamFormat: "autodetect"
+    Logo: "https://cdn.mitvstatic.com/channels/mx_de-pelicula_m.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/21"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}  
+{   Title: "DE PELICULA PLUS"
+    streamFormat: "autodetect"
+    Logo: "https://1000marcas.net/wp-content/uploads/2022/01/De-Pelicula-Plus-Logo.png"
+    Stream: "http://208.88.246.11:5473/live/DTHEATER/chunk_Auth=ix08x%C3%82%C2%A0Z6Q7r567Z5%5E@9WxF%C3%82%C2%A0g7x%C3%82%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}  
+
+
+
+
+    ]
+    return arr
+End Function
+
+Function loadConfigMusica() as Object
+    arr = [
+{   Title: "TELEHIT URBANO"
+    streamFormat: "autodetect"
+    Logo: "https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/06/regarder-telehit-urbano.png"
+    Stream: "https://vivo.lamtv.tv:8081/a/0101/playlist.m3u8"
+    Live: true
+}
+{   Title: "MTV 00s"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/f/f8/MTV_00s_remaster.png"
+    Stream: "http://23.237.29.98:5473/254VH1/transco7/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x¦c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "MTV HITS"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/c/c9/MTV_Hits.svg"
+    Stream: "http://tv.nousiptv.com:8080/Veronicafleitas/2528/1156057"
+    Live: true
+}
+{   Title: "MTV LIVE"
+    streamFormat: "autodetect"
+    Logo: "http://x.playerlatino.live/mtv.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/70"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "MTV"
+    streamFormat: "autodetect"
+    Logo: "https://www.freepnglogos.com/uploads/mtv-png-logo/mtv-brand-png-logo-15.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/803"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "Teleritmo"
+    streamFormat: "autodetect"
+    Logo: "http://directostv.teleame.com/wp-content/uploads/2017/10/Teleritmo-en-vivo-Online.png"
+    Stream: "https://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8"
+    Live: true
+}
+{   Title: "Bandamax"
+    streamFormat: "autodetect"
+    Logo: "https://home-statics.boletia.com/uploads/sponsor/logo/130351/BANDAMAX.png"
+    Stream: "http://208.88.246.11:5473/encoder70/goltv/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+
+    ]
+    return arr
+End Function
+
+Function loadConfigPluto() as Object
+    arr = [ 
+{   Title: " CINE ACCION"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5dcb62e63d4d8f0009f36881/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=5.12.0-a87d76d6acd214757f3f9ce727615cd3be3397a8&app_name=web&clientDeviceType=0&clientID=ec36a0cc-6171-407a-b481-12a3677eb61f&clientModelNumber=na&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2474&deviceLon=-99.5884&deviceMake=Android%2BBrowser&deviceModel=web&deviceType=web&deviceVersion=4.0&marketingRegion=VE&serverSideAds=true&sessionID=6338cd30-4e24-11eb-b973-0242ac110002&sid=6338cd30-4e24-11eb-b973-0242ac110002&userId="
+    Live: true
+}
+{   Title: " ESTRELLAS DE ACCION"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5e972a21ad709d00074195ba/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e972a21ad709d00074195ba/master.m3u8?advertisingId=&appName=web&appVersion=5.12.0-a87d76d6acd214757f3f9ce727615cd3be3397a8&app_name=web&clientDeviceType=0&clientID=ec36a0cc-6171-407a-b481-12a3677eb61f&clientModelNumber=na&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2474&deviceLon=-99.5884&deviceMake=Android%2BBrowser&deviceModel=web&deviceType=web&deviceVersion=4.0&marketingRegion=VE&serverSideAds=true&sessionID=f830ea3d-4e23-11eb-b866-0242ac110002&sid=f830ea3d-4e23-11eb-b866-0242ac110002&userId="
+    Live: true
+}
+{   Title: " CINE SUSPENSO"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5ddc4e8bcbb9010009b4e84f/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc4e8bcbb9010009b4e84f/master.m3u8?advertisingId=&appName=web&appVersion=5.12.0-a87d76d6acd214757f3f9ce727615cd3be3397a8&app_name=web&clientDeviceType=0&clientID=ec36a0cc-6171-407a-b481-12a3677eb61f&clientModelNumber=na&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2474&deviceLon=-99.5884&deviceMake=Android%2BBrowser&deviceModel=web&deviceType=web&deviceVersion=4.0&marketingRegion=VE&serverSideAds=true&sessionID=c26550e9-4e24-11eb-a8d7-0242ac110002&sid=c26550e9-4e24-11eb-a8d7-0242ac110002&userId="
+    Live: true
+}
+{   Title: " CINE TERROR"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5dcddf1ed95e740009fef7ab/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?advertisingId=&appName=web&appVersion=5.12.0-a87d76d6acd214757f3f9ce727615cd3be3397a8&app_name=web&clientDeviceType=0&clientID=ec36a0cc-6171-407a-b481-12a3677eb61f&clientModelNumber=na&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2474&deviceLon=-99.5884&deviceMake=Android%2BBrowser&deviceModel=web&deviceType=web&deviceVersion=4.0&marketingRegion=VE&serverSideAds=true&sessionID=1ebf807b-4e25-11eb-b973-0242ac110002&sid=1ebf807b-4e25-11eb-b973-0242ac110002&userId="
+    Live: true
+}
+{   Title: " CINE ESTELAR"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5dcde437229eff00091b6c30/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=5.12.0-a87d76d6acd214757f3f9ce727615cd3be3397a8&app_name=web&clientDeviceType=0&clientID=ec36a0cc-6171-407a-b481-12a3677eb61f&clientModelNumber=na&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2474&deviceLon=-99.5884&deviceMake=Android%2BBrowser&deviceModel=web&deviceType=web&deviceVersion=4.0&marketingRegion=VE&serverSideAds=true&sessionID=52c5031d-4e25-11eb-91f7-0242ac110002&sid=52c5031d-4e25-11eb-91f7-0242ac110002&userId="
+    Live: true
+}
+{   Title: " CINE"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5defde6d6c07b50009cf0757/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5defde6d6c07b50009cf0757/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=7fafa44b-3b64-11eb-a113-0242ac110002&userId=&serverSideAds=true"
+    Live: true
+}
+{   Title: "Narcos"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8F8OaJqb1blTUVwKAiCfv0f6n0-oExdNlFokhBrotkTKQovopF9CkHg&s=10"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f7274806621ff00072651ff/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=d96ce60b-3b64-11eb-8528-0242ac110002&userId=&serverSideAds=true"
+    Live: true
+}
+{   Title: " SERIES RETRO"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5de802659167b10009e7deba/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de802659167b10009e7deba/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=d96ce60b-3b64-11eb-8528-0242ac110002&userId=&serverSideAds=true"
+    Live: true
+}
+{   Title: " HISTORIAS DE ULTRATUMBA"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5f4d3696d938c900072679fd/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4d3696d938c900072679fd/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=38fd7ee9-3b65-11eb-a113-0242ac110002&userId=&serverSideAds=true"
+    Live: true
+}
+{   Title: " HISTORIA"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5de5758e1a30dc00094fcd6c/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de5758e1a30dc00094fcd6c/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=d6dce061-3b65-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live: true
+}
+{   Title: " NOVELAS"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5dcde0cc2efd2700090b7ff4/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde0cc2efd2700090b7ff4/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live: true
+}
+{   Title: " MTV CLASSIC"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5de91b7ea86ee60009d89e75/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de91b7ea86ee60009d89e75/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=7cc89cf9-3b66-11eb-8d41-0242ac110002&userId=&serverSideAds=true"
+    Live: true
+}
+{   Title: " MTV PRANKS"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5e98a911c881310007d7aae2/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e98a911c881310007d7aae2/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=e8bff4b1-3b66-11eb-a113-0242ac110002&userId=&serverSideAds=true"
+    Live: true
+}
+{   Title: " COMPETENCIAS"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5dd6d935d000120009bc1132/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd6d935d000120009bc1132/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=62d0569a-3b67-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live: true
+}
+{   Title: " WIPEOUT"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5ed6828192e8b3000743ef61/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ed6828192e8b3000743ef61/master.m3u8?advertisingId=&appName=web&appVersion=5.12.0-a87d76d6acd214757f3f9ce727615cd3be3397a8&app_name=web&clientDeviceType=0&clientID=ec36a0cc-6171-407a-b481-12a3677eb61f&clientModelNumber=na&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2474&deviceLon=-99.5884&deviceMake=Android%2BBrowser&deviceModel=web&deviceType=web&deviceVersion=4.0&marketingRegion=VE&serverSideAds=true&sessionID=a5f10abe-4e25-11eb-8528-0242ac110002&sid=a5f10abe-4e25-11eb-8528-0242ac110002&userId="
+    Live: true
+}
+{   Title: " NICK CLASSIC"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5ddd7c348520b40009c347e2/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddd7c348520b40009c347e2/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=a6cc4616-3b67-11eb-91f7-0242ac110002&userId=&serverSideAds=true"
+    Live: true
+}
+{   Title: " MTV ANIMACIONES"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5efb8ce2e426140007c78fd1/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5efb8ce2e426140007c78fd1/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=06c337c1-3b68-11eb-a7eb-0242ac110002&userId=&serverSideAds=true"
+    Live: true
+}
+{   Title: " HUMOR"
+    streamFormat: "autodetect"
+    Logo: "https://images.pluto.tv/channels/5e8397936791b30007ebb5a7/featuredImage.jpg"
+    Stream: "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e8397936791b30007ebb5a7/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=a22973c6-3b68-11eb-8d41-0242ac110002&userId=&serverSideAds=true"
+    Live: true
+}
+{   Title: "Paramount+ Presenta"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/600728952b1776000776526d/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/600728952b1776000776526d/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Deportes"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5dcde07af1c85b0009b18651/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5dcde07af1c85b0009b18651/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Futbol Para Fans"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5e3ddd1a3ef73b00091d5779/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5e3ddd1a3ef73b00091d5779/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Peleas"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5e98b0447665f200078caded/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5e98b0447665f200078caded/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "AEW"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5f4d1697f10a0e000798ed8d/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5f4d1697f10a0e000798ed8d/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Triple AAA"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5f99a772c54853000797bf18/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5f99a772c54853000797bf18/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Motor Vision TV"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/60e5ea9a9bb4200008376f76/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/60e5ea9a9bb4200008376f76/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Investiga"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5dcde27ffae9520009c0c75a/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5dcde27ffae9520009c0c75a/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Los Archivos Del FBI"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5e67d41b93312100076f3fca/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5e67d41b93312100076f3fca/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Archivos Forences "
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5efb8c19b2678b000780d032/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5efb8c19b2678b000780d032/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "The New Detectives"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5ea71d48af1d0b0007d837f4/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5ea71d48af1d0b0007d837f4/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Misterios Sin Resolver"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5f610042272f68000867685b/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5f610042272f68000867685b/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Anime"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5dcde17bf6591d0009839e02/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5dcde17bf6591d0009839e02/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Anime Accion"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5e6a4d875d7ccf0007cc2cf1/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5e6a4d875d7ccf0007cc2cf1/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Naruto"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5ee92e72fb286e0007285fec/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5ee92e72fb286e0007285fec/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "YU-GI-OH"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5fceaab478f2af00080ff51f/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5fceaab478f2af00080ff51f/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "One Piece"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5ff4b9ccf938f8000779eb99/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5ff4b9ccf938f8000779eb99/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Tokusato"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5ff608e60e2996000768c366/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5ff608e60e2996000768c366/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "E-Sports"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5ff3934600d4c7000733ff49/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5ff3934600d4c7000733ff49/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Babyfirst"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5ebac49ce4dc8b00078b23bc/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5ebac49ce4dc8b00078b23bc/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Junior"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5dcde2ac4bc6c500094ab45b/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5dcde2ac4bc6c500094ab45b/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Nick Jr Clud"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5ddd7cb2cbb9010009b4fe32/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5ddd7cb2cbb9010009b4fe32/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Las Pistas De Blue"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5f9996533c9de3000759ccb5/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5f9996533c9de3000759ccb5/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Barney"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5f29ada4bdaebd000708d49d/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5f29ada4bdaebd000708d49d/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Babar"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5e67e20c93312100076f3ffe/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5e67e20c93312100076f3ffe/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "El Reino Infantin"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5f4d3d06fb60d8000781fce8/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5f4d3d06fb60d8000781fce8/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Kenan y Kel"
+    streamFormat:"autodetect"
+    Logo: "https://images.fanart.tv/fanart/KenanKel-74392.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5fcea93ffcf94500071c4b2f/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=d5c2a0bc-8b1d-11ec-ae2f-0242ac110003"
+    Live:true
+}
+{   Title: "Rugrats Crecidos"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5ea7215005d66d0007e8128a/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5ea7215005d66d0007e8128a/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Kids"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5dd6dae8ce788b0009eaf77b/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5dd6dae8ce788b0009eaf77b/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Victoria El Sabor Chingon"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/6127e8914676bf00076e250d/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/6127e8914676bf00076e250d/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Viajes"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5dcddfbdb7cf0e0009ae09ea/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5dcddfbdb7cf0e0009ae09ea/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Latin Angels"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5df41355939756000921d15b/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5df41355939756000921d15b/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Cocina"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5dcde0657444a40009cd2422/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5dcde0657444a40009cd2422/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Recetas"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/609062295c2b8f0007199e7a/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/609062295c2b8f0007199e7a/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Tastemade"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5f998c1fc54853000797bacd/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5f998c1fc54853000797bacd/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Hogar"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5dd6ab8056beb000091fc6b6/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5dd6ab8056beb000091fc6b6/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Fashionbox"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/5ee8d84bfb286e0007285aad/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/5ee8d84bfb286e0007285aad/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+{   Title: "Retro Cartoons"
+    streamFormat:"autodetect"
+    Logo: "https://images.pluto.tv/channels/60142258a54aeb0007751c15/colorLogoPNG.png"
+    Stream: "https://stitcher.pluto.tv/stitch/hls/channel/60142258a54aeb0007751c15/master.m3u8?advertisingId=&appName=web&appVersion=5.11.1-2a66a4913105edf0ba49fadd1a6875693b09e78c&architecture=&buildVersion=&clientTime=&deviceDNT=true&deviceId=ec36a0cc-6171-407a-b481-12a3677eb61f&deviceLat=19.2693&deviceLon=-99.6718&deviceMake=Android%2BBrowser&deviceModel=Android%2BBrowser&deviceType=web&deviceVersion=4.0&includeExtendedEvents=true&marketingRegion=VE&sid=350deeb6-3b66-11eb-b866-0242ac110002&userId=&serverSideAds=true"
+    Live:true
+}
+
+    ]
+    return arr
+End Function
+
+Function loadConfigDeportes() as Object
+    arr = [
+
+{   Title: "ESPN"
+    streamFormat: "autodetect"
+    Logo: "https://logodownload.org/wp-content/uploads/2015/05/espn-logo-5.png"
+    Stream: "http://208.88.246.11:5473/evento/bodega/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "ESPN 2"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/1200px-ESPN2_logo.svg.png"
+    Stream: "http://208.88.246.11:5473/evento2/bodega/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "ESPN 3"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/ESPN3_Logo.png"
+    Stream: "http://208.88.246.11:5473/507ESPN3/transco14/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "ESPN EXTRA"
+    streamFormat: "autodetect"
+    Logo: "https://3.bp.blogspot.com/-TNq_WQvu70w/WVrJrd2fhWI/AAAAAAAA8KQ/J02VFD8ys-sKxshHsgbLuXVBJIH_IYlawCLcBGAs/s640/espnextra.png"
+    Stream: "http://208.88.246.11:5473/andromeda/ESPN+/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "FOX SPORTS"
+    streamFormat: "autodetect"
+    Logo: "https://logodownload.org/wp-content/uploads/2018/10/fox-sports-logo.png"
+    Stream: "http://208.88.246.11:5473/encoder18/unicable/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "FOX SPORT 2"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/en/7/7e/Fox_Sports_2_logo.png"
+    Stream: "http://208.88.246.11:5473/andromeda/FOXSP2/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "FOX SPORT 3"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Fox_Sports_3_Argentina_2023.svg"
+    Stream: "http://208.88.246.11:5473/9466NBCSP/transco15/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "FOX SPORT PREMIUM"
+    streamFormat: "autodetect"
+    Logo: "https://static.wikia.nocookie.net/logopedia/images/c/cc/FOXSportsPremium2019.png/revision/latest/scale-to-width-down/250?cb=20190602030108&path-prefix=es"
+    Stream: "http://208.88.246.11:5473/evento3/bodega/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "Afizzionados"
+    streamFormat:"autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Afizzionados_Logo.svg/1200px-Afizzionados_Logo.svg.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/878"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "TNT SPORTS"
+    streamFormat:"autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/3/33/TNTSportsLA.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/509"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "TUDN"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/TUDN_Logo.svg/800px-TUDN_Logo.svg.png"
+    Stream: "http://208.88.246.11:5473/encoder84/evento17/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "TVC DEPORTES"
+    streamFormat: "autodetect"
+    Logo: "https://www.megacable.com.mx/images/canales/673_tvc-deportes.png"
+    Stream: "http://tv.nousiptv.com:8080/Veronicafleitas/2528/4139"
+    Live: true
+}
+{   Title: "AYM SPORTS"
+    streamFormat: "autodetect"
+    Logo: "https://pescaendirecto.com/wp-content/uploads/easy_logo_slider/498508Logo-AYM.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/148"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true
+}
+{   Title: "CLARO SPORTS"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Claro_Sports_logo.svg/1280px-Claro_Sports_logo.svg.png"
+    Stream: "http://208.88.246.11:5473/504clarosport/transco8/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "ADRENALINA SPORTS"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/f/f4/AdrenalinaSportsNetwork.png"
+    Stream: "http://208.88.246.11:5473/UFCNET/transco2/chunk_Auth=ix08x%C2%A0Z6Q7r567Z5%5E@9WxF%C2%A0g7x%C2%A6c=1/playlist.m3u8"
+    UserAgent: "https-user-agent=BrzLRzQgfTrvXYGnfIVrkwb9402QA44LkyZf98xmMznUT"
+    Live: true
+}
+{   Title: "RedBull TV"
+    streamFormat:"autodetect"
+    Logo: "https://images-na.ssl-images-amazon.com/images/I/51FTAL9cx7L.png"
+    Stream: "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8"
+    Live:true
+}
+{   Title: "BEIN SPORTS Ñ"
+    streamFormat: "autodetect"
+    Logo: "https://i.pinimg.com/originals/11/b1/48/11b14885c76a7e6534130043e86337d0.png"
+    Stream: "http://tv.nousiptv.com:8080/Veronicafleitas/2528/1155904"
+    Live: true
+}
+{  Title: "UFC Fight Pass"
+   streamFormat:"autodetect"
+   Logo: "https://upload.wikimedia.org/wikipedia/commons/4/41/UFC_Network.png"
+   Stream: "http://tv.nousiptv.com:8080/Veronicafleitas/2528/53373"
+   Live: true
+}
+{  Title: "WWE Network"
+   streamFormat:"autodetect"
+   Logo: "https://download.logo.wine/logo/WWE_Network_(Canada)/WWE_Network_(Canada)-Logo.wine.png"
+   Stream: "https://u.m3uts.xyz/stream/hls/276"
+   UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+   Live: true
+}
+
+
+
+    ]
+    return arr
+End Function
+
+Function loadConfigEstrenos() as Object
+    arr = [
+
+
+
+{   Title: "Sick - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4JWl9GQvojEs4EghENHvUAQE9Oz.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1148847.mkv"
+    Live: true
+} 
+{   Title: "M3GAN - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/nODj4huoOcHwCQnfhZFCqUYcInU.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1148848.mkv"
+    Live: true
+} 
+{   Title: "Objetos - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ejijnP0sOr4Fgxo5CYWT6rz3ZdG.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1148849.mkv"
+    Live: true
+} 
+{   Title: "Devotion. Una historia de héroes - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/iMAWgK9Z3C2L0MaI17VqwdZi8bJ.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1148861.mkv"
+    Live: true
+} 
+{   Title: "Disconnect The Wedding Planner (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hoB5pA88k1s9e8HXWDj5JHOF3ZV.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1148863.mkv"
+    Live: true
+} 
+{   Title: "Perro perdido (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vNhYiYibl5tfisoVcJuLhR2iaLX.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1148864.mkv"
+    Live: true
+} 
+{   Title: "La aldea siniestra" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6AUpD8Wv45rkCKn0XgvpG8shKS2.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1148865.mkv"
+    Live: true
+} 
+{   Title: "The Old Way (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8HCCYAIocXxMKn7J9yQfDX1vBM5.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149227.mkv"
+    Live: true
+} 
+{   Title: "Snow Falls - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/wfZklSVDJPpHT0Arq4A8GY8Q9S9.jpg"
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149310.mkv"
+    Live: true
+} 
+{   Title: "The Rolling Stones Havana Moon - 2016" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/wh7m5IISn3qmvfH8PgxTJqD3hnl.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149372.mkv"
+    Live: true
+} 
+{   Title: "Dead Zone (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/jZCzLnF0e70VrvccmJBQZWmM8pW.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149582.mkv"
+    Live: true
+} 
+{   Title: "Angry Birds La película (2016)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ndFOgZXIBdAobly9YO595lUb79E.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149583.mkv"
+    Live: true
+} 
+{   Title: "JUNG_E - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/zYnp9vNPdJiCU0SIisWdA3VIGNB.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149594.mkv"
+    Live: true
+} 
+{   Title: "Fall - Vertigo - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/uBU3TkbrU8Ji8j8rDErXUrlwBpB.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149647.mkv"
+    Live: true
+} 
+{   Title: "Wrong Place (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/rWBXVkDXdXuY1zmkonDYTiO9Yi6.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149701.mkv"
+    Live: true
+} 
+{   Title: "Devotion. Una historia de héroes (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/nxXJLtFRLnTP3Wm8g17i8ABxQ8o.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149702.mkv"
+    Live: true
+} 
+{   Title: "Kandisha (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/9SzskotXYsdPu6qHWZVnbjlZMqW.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149703.mkv"
+    Live: true
+} 
+{   Title: "Narvik (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gU4mmINWUF294Wzi8mqRvi6peMe.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149704.mkv"
+    Live: true
+} 
+{   Title: "There's Something Wrong with the Children (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/e49Sr3Lxfk2psYhv1SzQjs7MeGo.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149705.mkv"
+    Live: true
+} 
+{   Title: "Detective Knight Redención (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/acCIjyszhmit8k5eWVGNTustYRK.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149706.mkv"
+    Live: true
+} 
+{   Title: "Transfusion (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/bxh5xCCW9Ynfg6EZJWUkc1zqTnr.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149844.mkv"
+    Live: true
+} 
+{   Title: "Detective Knight Independencia (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/jrPKVQGjc3YZXm07OYMriIB47HM.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149845.mkv"
+    Live: true
+} 
+{   Title: "Candy Land (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/r7ZipEd9oHHVVXTcvbx3Sd3Tukv.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149949.mkv"
+    Live: true
+} 
+{   Title: "La Ilusión (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7QXM2Kml4TERscVJGwgESKqeVBS.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149950.mkv"
+    Live: true
+} 
+{   Title: "Fuerza bruta (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kf263PuO1qh6WCMeZ0XZf1GkbaF.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149951.mkv"
+    Live: true
+} 
+{   Title: "Lupin III vs. Ojos de gato (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/9GK9LTdgd0qTbhFkS630bk1qaE0.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149952.mkv"
+    Live: true
+} 
+{   Title: "Teen Wolf La Película (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/wAkpPm3wcHRqZl8XjUI3Y2chYq2.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149953.mkv"
+    Live: true
+} 
+{   Title: "Darby y los espíritus (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/j6de6xJIJnnsyAqtxL603JKy1PG.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149954.mkv"
+    Live: true
+} 
+{   Title: "La gente como vosotros (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3AqGq6t4dHzTPgQ1JSzhhDxz5pQ.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1149955.mkv"
+    Live: true
+} 
+{   Title: "When You Finish Saving the World (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pZyeoBDQJFPGfd0Mu8XIElGBjZz.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150199.mkv"
+    Live: true
+} 
+{   Title: "La familia tiene un precio (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gx8ntnkuvPMDCt2qtr9YMDXjLAx.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150200.mkv"
+    Live: true
+} 
+{   Title: "Babylon (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/9hoPrIiGjfliN6emg8FdOsEjSZp.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150280.mkv"
+    Live: true
+} 
+{   Title: "Los trapos sucios se lavan en casa (2020)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/klmsgJ1gBsZSmeN7JbUcaBy1AAV.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150337.mkv"
+    Live: true
+} 
+{   Title: "La forja de un campeón (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8ykbt5oFxeu292SMZPqZTi1jKff.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150338.mkv"
+    Live: true
+} 
+{   Title: "La conferencia (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/HPY2WagRVbuU9ApYxqpJft0pAB.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150339.mkv"
+    Live: true
+} 
+{   Title: "American Murderer" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mnRekTKyxQSDX0cHWCldO0RGKOR.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150340.mkv"
+    Live: true
+} 
+{   Title: "El mar del Norte (2021)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/bYnlT2TbgSMytw0mVTQWAZ4mXNq.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150341.mkv"
+    Live: true
+} 
+{   Title: "Sam & Kate (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/fzQN7YcIgboMavMMwrOTaqz8agm.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150442.mkv"
+    Live: true
+} 
+{   Title: "Nix (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pmAFOmkhsTXJlRptAgoKn77Odue.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150443.mkv"
+    Live: true
+} 
+{   Title: "Los Buscamundos (2021)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kqLhRxIjBbWG83PLcQWUGd1gNF3.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150444.mkv"
+    Live: true
+} 
+{   Title: "El Piloto (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/r1SyEVQhOxlQ3ijDHl5HWygEDqU.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150557.mkv"
+    Live: true
+} 
+{   Title: "Infiesto (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/rpuV6GRIBD2v8A2FZM53ebNFcJx.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150558.mkv"
+    Live: true
+} 
+{   Title: "Fantasy Football (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/lC99lme4UplMUICswlA4mfe5GNx.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150559.mkv" 
+} 
+
+
+{   Title: "Lobo vikingo (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gd6ZQn6bM2IEELW8lURA9dP2jiO.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150560.mkv"
+    Live: true
+} 
+{   Title: "Espíritu libre (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hOyU0FuaVoWADcrh8dWs0Kw801O.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150561.mkv"
+    Live: true
+} 
+{   Title: "Una boda explosiva - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/AxkGXv7prs5EXB03CA0Cc9zfGh.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1150766.mkv"
+    Live: true
+} 
+{   Title: "The Locksmith (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kNQ9Z3TQ5vU5fvwuHqZvLooFcCI.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151010.mkv"
+    Live: true
+} 
+{   Title: "Whitney Houston I Wanna Dance with Somebody (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/e7tzASghUkQ78RYWttD6mYW4NHJ.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151011.mkv"
+    Live: true
+} 
+{   Title: "Blood (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gCUFtTvjK4gbmjVxhx8bhyOhAeW.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151012.mkv"
+    Live: true
+} 
+{   Title: "El imperio de la luz (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7Y7l9FDxdknampTfpp6qjVWm54O.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151013.mkv"
+    Live: true
+} 
+{   Title: "El Superviviente (2021)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ld5Tr27pZPpPuLRRITDKR7EVcps.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151078.mkv"
+    Live: true
+} 
+{   Title: "Arde Notre Dame (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mdNvIO2gU87Kj5aZ34VH79ifvl0.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151079.mkv"
+    Live: true
+} 
+{   Title: "Significant Other (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/2S4ApvEtZD62AItsIjX1HU1c5D2.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151080.mkv"
+    Live: true
+} 
+{   Title: "Dear David (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/A9JD050ibp3hNC1kmbcq07jEZv2.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151135.mkv"
+    Live: true
+} 
+{   Title: "Alice, cariño (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mVYbMz9ktDXzqqDevaS0jxl0LRc.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151136.mkv"
+    Live: true
+} 
+{   Title: "Expediente Warren Obligado por el demonio (2021)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ghMQALCyytc6W0wlOlMIKiMSRKV.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151157.mkv"
+    Live: true
+} 
+{   Title: "Tu casa o la mía (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/9vMUao1QadZ6OS2UI984tORgGtU.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151216.mkv"
+    Live: true
+} 
+{   Title: "Somebody I Used to Know (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ovHxxphDgjyEpYriDoGoIHfrdZL.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151217.mkv"
+    Live: true
+} 
+{   Title: "At Midnight (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/FNgEj5cqvbRriZzgnVIHf9aee9.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151218.mkv"
+    Live: true
+} 
+{   Title: "Garras donde comienza la leyenda  - 1996" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/sSA0bmScT6gOjYp18IS5EEFijhv.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151243.mkv"
+    Live: true
+} 
+{   Title: "El silencio del pantano " 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/zf24upUhFXwExeE8mxHY69Y9Qo0.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151244.mp4"
+    Live: true
+} 
+{   Title: "El agente invisible - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/engWUYSxDogn8csr3wJOq4cOzna.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151476.mkv"
+    Live: true
+} 
+{   Title: "Shot Caller - 2017" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gtKhQhooQCB8jn4l3Pi1kRZHKbw.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151477.mkv"
+    Live: true
+} 
+{   Title: "Nadie - 2021" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ddO5a3tMPpQutSDQO1bESgLWadB.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151478.mkv"
+    Live: true
+} 
+{   Title: "El hijo (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cKmSgC8zinLpYyNK7Aqv9HIaqcW.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151494.mkv"
+    Live: true
+} 
+{   Title: "Amor al cuadrado otra vez (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/9mFHSHWce77Pi5zwkfCL35KU6MW.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151495.mkv"
+    Live: true
+} 
+{   Title: "Infinity Pool (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/5DNRr2juXdwtvktwXxwuk9Usk8O.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151607.mkv"
+    Live: true
+} 
+{   Title: "Entre el Amor y la Amistad (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/68qUoVSL7BVirc9U3a1O3zKfsAM.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151608.mkv"
+    Live: true
+} 
+{   Title: "A Todas Partes (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gBiZdPAWLSPLE4sX6BzWMzaJylP.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151609.mkv"
+    Live: true
+} 
+{   Title: "Re/Member (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pRNSIJyGM7cR8xAHee0obKXpzIl.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151610.mkv"
+    Live: true
+} 
+{   Title: "Yo, él y Raquel (2015)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/tIBKWAZsP9NGMKnVC5N3RySvTfz.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151704.mkv"
+    Live: true
+} 
+{   Title: "Crepúsculo - 2008" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/40ollvfwHaVF85lkkg522SIl3Qc.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151755.mkv"
+    Live: true
+} 
+{   Title: "Embaucadores - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/eGcpjDqXlMxUTL4OBougtUEEJP6.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151757.mkv"
+    Live: true
+} 
+{   Title: "Si, Quiero... o no - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1Qbufyl2N0e4zUWKWNxHu1dTMAM.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151758.mkv"
+    Live: true
+} 
+{   Title: "Detroit (2017)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6ue8SL4u2S7TFFNrWNq8FYk20Z9.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151759.mkv"
+    Live: true
+} 
+{   Title: "Manchester frente al mar (2016)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/A3yR6Mdz48elRI1pBOzbIbDyCRi.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151851.mkv"
+    Live: true
+} 
+{   Title: "12 años de esclavitud (2013)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1OoCd3fmjPHt9iCR4QxNGGrDyI0.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1151852.mkv"
+    Live: true
+} 
+{   Title: "Little Dixie (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cmWTZj9zzT9KFt3XyL0gssL7Ig8.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152004.mkv"
+    Live: true
+} 
+{   Title: "Unlocked (2021)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/648Egu3BB7WDBp0wd4g7LbiJwZH.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152006.mkv"
+    Live: true
+} 
+{   Title: "Ellas hablan (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ic1LmfuGibGJMYjdz1Pobxeouon.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152105.mkv"
+    Live: true
+} 
+{   Title: "The System (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6BZAYG6oooTLv72w9ePKvbpqDlj.jpg"
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152106.mkv"
+    Live: true
+} 
+{   Title: "Llaman a la puerta (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4Zna9CvyzaAgejsErmyXmHC64Dd.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152107.mkv"
+    Live: true
+} 
+{   Title: "La ballena (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/irhIdN4KDOdmTXpplSAwCGZYDSL.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152108.mkv"
+    Live: true
+} 
+{   Title: "Los extraños (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3OKBFYRVSKkBVJ7WpKogTVQfUqC.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152166.mkv"
+    Live: true
+} 
+{   Title: "Lullaby (Cancion de cuna) - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vmE4gZ9vy8ammgS2UsEh0Z1OCia.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152272.mkv"
+    Live: true
+} 
+{   Title: "Fences - 2016" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mCvMXsEbdMW2ESEATDcs14Urh9y.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152273.mkv"
+    Live: true
+} 
+{   Title: "Un fantasma anda suelto por casa - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pxPs1ukS3vYxLy7Huw2aINxX2dy.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152436.mkv"
+    Live: true
+} 
+{   Title: "Blindsided - 2016" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qlXZXe2tDzJWPqmQaUEWvmOKHg1.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152437.mkv"
+    Live: true
+} 
+{   Title: "Muere, Hart - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xz91Gre0w7tyl99jGEh5oGc8DQ7.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152448.mkv"
+    Live: true
+} 
+{   Title: "Matón: sangre de su sangre (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/h11pzG8yK70Ly5MkNHvhPH9m84n.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152566.mkv"
+    Live: true
+} 
+{   Title: "Me llamo Chihiro (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/eKroDP4pGAgZ02fKBBSiIGtzBz0.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152567.mkv"
+    Live: true
+} 
+{   Title: "Magic Mike's Last Dance - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/p98DxMJbXjI6ITI9aFh3U0u5oF7.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152812.mkv"
+    Live: true
+} 
+{   Title: "El peor vecino del mundo - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6jE6HqtBqRUKuy98NMoWyZOHguR.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152815.mkv"
+    Live: true
+} 
+{   Title: "Historias que no te atreves a contar - 2021" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cb54aGmSPs9IZZjMZv4WKU4OXi5.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152899.mkv"
+    Live: true
+} 
+{   Title: "The Jack in the Box El despertar (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xm6N21UjaUSK9LF7kfDSaGJU7fx.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152920.mkv"
+    Live: true
+} 
+{   Title: "Princesa Khutulun En busca del pergamino dorado" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/keO3Mc1z6nyQxu7kKsWWOi0WXzF.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1152921.mkv"
+    Live: true
+} 
+{   Title: "Eres tú (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cyawjtxqR4XesB5sJuwV4SsMmuc.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153044.mkv"
+    Live: true
+} 
+{   Title: "Sayen (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/aCy61aU7BMG7SfhkaAaasS0KzUO.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153045.mkv"
+    Live: true
+} 
+{   Title: "10 días de un buen hombre (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/lnPIicmgQ3tAJQdlRBh2oaMTxs8.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153047.mkv"
+    Live: true
+} 
+{   Title: "Living (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/z4WsK588j8Cj1uRjVbOFd8gcwHa.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153048.mkv"
+    Live: true
+} 
+{   Title: "13 exorcismos - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/aNlCqSfAV4BhHqaxmXdcaYM4iTF.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153329.mkv"
+    Live: true
+} 
+{   Title: "Babylon - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/oLZULW6Kn5imFM427tWfqIPMLmP.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153330.mkv"
+    Live: true
+} 
+{   Title: "The Reading - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vqeTY6g1ZTT7mkrvlSCiVgft8Wr.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153384.mkv"
+    Live: true
+} 
+{   Title: "Snow Day (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/dnwf2DyI41EkWvJnOLfWV6DFRNW.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153461.mkv"
+    Live: true
+} 
+{   Title: "Marlowe (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/nZie3WZuSb45EUXoQmUhLLnsjFr.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153462.mkv"
+    Live: true
+} 
+{   Title: "Missing (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/rR7uEhqQE2ZuQQOhuPyQnV6vnoH.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153463.mkv"
+    Live: true
+} 
+{   Title: "Los Amantes del Engaño (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/eZx7SUnQetww3ePIlvTUDYuZMo9.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153464.mkv"
+    Live: true
+} 
+{   Title: "80 for Brady (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/jixBLmH4gQuTKTenZr89egvqZbW.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153465.mkv"
+    Live: true
+} 
+{   Title: "Muy lejos de aquí (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/s8OSxz7U0hMsIPTrmdgUboTD2y2.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153540.mkv"
+    Live: true
+} 
+{   Title: "Malvada (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8k3JpWtTjYNupCbMKW8vkEEmbWf.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153541.mkv"
+    Live: true
+} 
+{   Title: "ONE PIECE FILM RED (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4ovEtMHpv1UKDJB6Wq69DB4q8xG.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153542.mkv"
+    Live: true
+} 
+{   Title: "On the Come Up (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qzgGmE8EJH3gOUlxSYhm8AHJUu2.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153614.mkv"
+    Live: true
+} 
+{   Title: "Dead for a Dollar (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1AnXfjxFqMsQmUPSvt9YxUJhfFw.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153615.mkv"
+    Live: true
+} 
+{   Title: "Ghosts of the Ozarks (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7a2G4a4A6nDb8K1PVFUcsOT1u3s.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153616.mkv"
+    Live: true
+} 
+{   Title: "The Tiger's Nest (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kcTVF6AxGhME5auzcbII14U3E9f.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153617.mkv"
+    Live: true
+} 
+{   Title: "The Walk (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/tg1dJHA60iuLxAHtUYD01LL7P10.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153618.mkv"
+    Live: true
+} 
+{   Title: "Cazadora - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8QxCd3pSSrj6QqaG4fkNkaJmUa.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153683.mkv"
+    Live: true
+} 
+{   Title: "Evita Una Tumba Sin Paz - 1997" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/oJZbuUi6hesT2VFJ3G6MYjk1d3Y.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153684.mkv"
+    Live: true
+} 
+{   Title: "TAR - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/b4Gr7WwUzYGUfzUb32wdhWuaC0m.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1153686.mkv"
+    Live: true
+} 
+{   Title: "El contable - 2016" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1Bd9ItSLT13u8Na0PApQAMcW1Jw.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154024.mkv"
+    Live: true
+} 
+{   Title: "Operación Fortune El gran engaño - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/u1WvYS8FRczTY3hv3CBBQzf1vht.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154025.mkv"
+    Live: true
+} 
+{   Title: "La cabaña - 2017" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/d7qG9sdCTo3uBeWXpxKehplvr8B.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154026.mkv"
+    Live: true
+} 
+{   Title: "Oso vicioso (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/i30ZaOHjIllEeQrL67IqKs8kk4A.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154141.mkv"
+    Live: true
+} 
+{   Title: "The Ritual Killer (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1VtHaELqLMovl8EueBWHDtihhzF.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154142.mkv"
+    Live: true
+} 
+{   Title: "Chang machaca (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ijgY6uYwNqkVIgG9T6TTkdgt2Wi.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154144.mkv"
+    Live: true
+} 
+{   Title: "El menú (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/eNcfCScUUyHQyjP84P25a8ColWp.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154176.mkv"
+    Live: true
+} 
+{   Title: "Unwelcome - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/88bGObx8YKLQDOOhcrBHHzXpiAv.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154177.mkv"
+    Live: true
+} 
+{   Title: "Hasta el fondo La historia de Pornhub - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/g7fD1EHgctNSjBUzAOfxEsHaB2k.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154178.mkv"
+    Live: true
+} 
+{   Title: "Survive (2021)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qv6eEsxEvGz1fqkdYr4ZD2x1CwE.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154180.mkv"
+    Live: true
+} 
+{   Title: "El lobo de Snow Hollow (2020)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/iVxiT6JxvrYelR1uDHbZQ0DYkYb.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154181.mkv"
+    Live: true
+} 
+{   Title: "Novembre (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/oBBgyAKgGJjDl8kGHALsylINGzM.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154247.mkv"
+    Live: true
+} 
+{   Title: "Ya era hora (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gGtzr9huoZFm0SoQmXYAAcwO4ty.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154248.mkv"
+    Live: true
+} 
+{   Title: "Control (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/oxi29Eg7JymhqV5QkSrMviUb3e9.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154249.mkv"
+    Live: true
+} 
+{   Title: "Jane (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Yz5zYXZrlx9UWbjlaEaJuyAsNY.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154250.mkv"
+    Live: true
+} 
+{   Title: "Ruido mental (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/2EyqCN2r7gObxSpdfb9eU1yEQ8W.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154251.mkv"
+    Live: true
+} 
+{   Title: "El asistente (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/oA7E73LT4xIgPOiix9lvIvYhM4Z.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154252.mkv"
+    Live: true
+} 
+{   Title: "La Exorcista (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/d07xtqwq1uriQ1hda6qeu8Skt5m.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154253.mkv"
+    Live: true
+} 
+{   Title: "El rey de las sombras (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/A70rat4oypHnFsb4J4MoSciNo3I.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154254.mkv"
+    Live: true
+} 
+{   Title: "El estrangulador de Boston (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/Af1vSPTbraVVqc6kB3Avm55gxcq.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154255.mkv"
+    Live: true
+} 
+{   Title: "La elefanta del mago (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cAoAgzOCxSytYBqqCQulhXNR3LB.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154323.mkv"
+    Live: true
+} 
+{   Title: "El Club de la Lucha (1999)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1yWmCAIGSVNuTOGyz9F48W9g1Ux.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154456.mkv"
+    Live: true
+} 
+{   Title: "Mi suegra me odia (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xEZ3h6D7MdMpszVjCWibLEsbjx6.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154656.mkv"
+    Live: true
+} 
+{   Title: "Batman: The Doom That Came to Gotham (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hrATQE8ScQceohwInaMluluNEaf.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154657.mkv"
+    Live: true
+} 
+{   Title: "Código Banshee (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/h1r6A3fTe2urhf9ZTdgY0KAhOwc.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154658.mkv"
+    Live: true
+} 
+{   Title: "Children of the Corn (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/9vYJfuYcCrN1GWW8x3MS7To4A3T.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154696.mkv"
+    Live: true
+} 
+{   Title: "Winnie the Pooh Blood and Honey (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ZmbSkGEpXFufbDhgfTnSrFAguo.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154697.mkv"
+    Live: true
+} 
+{   Title: "La historia oficial - 1985" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/zzdPMhLpT7CxfnvE0wcDUVWP5S4.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154899.mkv"
+    Live: true
+} 
+{   Title: "La Noche de los Lápices - 1986" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8GjSq46q9YC3Vv2vFH6EBOYdXwT.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154900.mkv"
+    Live: true
+} 
+{   Title: "El asistente - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/oA7E73LT4xIgPOiix9lvIvYhM4Z.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154917.mkv"
+    Live: true
+} 
+{   Title: "El engaño (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qjlpRjvnjDKwLJmK3Q2PPkj6PtU.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154918.mkv"
+    Live: true
+} 
+{   Title: "Con canas y a lo loco (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/5KSdIPMGQHHbIu7R6YkX0BVI8vP.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154919.mkv"
+    Live: true
+} 
+{   Title: "Johnny (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/zbzkNNViy1dH2jCLMok2DmHX8e9.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154920.mkv"
+    Live: true
+} 
+{   Title: "Furies (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/virYZ52mRzDES9y9qEhSeA9SNNC.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1154921.mkv"
+    Live: true
+} 
+{   Title: "Locked-in society (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gpnYOOKmI6KHj1VScHymF0u2QVe.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1155876.mkv"
+    Live: true
+} 
+{   Title: "Adicción perfecta (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/PZvtFU6HIzHKRdIYOlL4Lj0YFV.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1155877.mkv"
+    Live: true
+} 
+{   Title: "Az unoka (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/bXIkBjrEX455MBwl1aFn95JPYFv.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1155878.mkv"
+    Live: true
+} 
+{   Title: "Avatar El sentido del agua - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kUAG4ZQcsNbRyiPyAr3hLdsVgAq.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156193.mkv"
+    Live: true
+} 
+{   Title: "Champions - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kVBZBDHO271obL91WG8l2owoq5f.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156194.mkv"
+    Live: true
+} 
+{   Title: "Qodrat - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gCIAnXdwtYKf0oXPIA7fSeaCW55.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156195.mkv"
+    Live: true
+} 
+{   Title: "Momias (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6noSod4pIiT7UMtflrgDreNVRI9.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156216.mkv"
+    Live: true
+} 
+{   Title: "On a Wing and a Prayer (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/wx3U05u7Yq7Nu9xw75LfhqaSPP5.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156217.mkv"
+    Live: true
+} 
+{   Title: "Magic Mike XXL - 2015" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/sp4qcpHQhoZ6VmidFmgpQ066jWb.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156316.mkv"
+    Live: true
+} 
+{   Title: "Magic Mike - 2012" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pkl2kkwpNpskQKLWAAqwyQ2DWo8.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156317.mkv"
+    Live: true
+} 
+{   Title: "Novia a la fuga - 1999" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/zIjExGnoEl7dzsDcGBVWiWSMWrN.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156323.mkv"
+    Live: true
+} 
+{   Title: "Project Gemini (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/eX6tDFp4RhhjZaa1HUDUzFGPWYk.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156419.mkv"
+    Live: true
+} 
+{   Title: "Mi maestra se comió a mi amigo (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/5MiVG39r82aYUAtvs3bTycmbewJ.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156420.mkv"
+    Live: true
+} 
+{   Title: "The Commando (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mn1GYIQ1tvFuuu0YBNZBvrHyrkO.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156421.mkv"
+    Live: true
+} 
+{   Title: "Creed III - 2023" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/fcFMd3HdyX7r5gtFwVnn2qr5Yhq.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156442.mkv"
+    Live: true
+} 
+{   Title: "No mires a los ojos - 2022" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/bYYlsHhcdA3QQIOuiFyRtV5w7c0.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156761.mkv"
+    Live: true
+} 
+{   Title: "The Devil's Doorway (2018)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mOFn9lYmI8SAi15nhht37rhwxzT.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156845.mkv"
+    Live: true
+} 
+{   Title: "Pacto de graduación (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/748fvxCzIKHKZI2c98DdWPAeNkR.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156846.mkv"
+    Live: true
+} 
+{   Title: "Tetris (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/dOav5YrQqyskJd669fbGuTht39g.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156847.mkv"
+    Live: true
+} 
+{   Title: "Criminales a la vista (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/a5loEjbbnAiUZs0UTlOmxhuvIZk.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156848.mkv"
+    Live: true
+} 
+{   Title: "Boksoon debe morir (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3mNP3fpjHtoCZ2GaxPnA4elj0rv.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156849.mkv"
+    Live: true
+} 
+{   Title: "The Cursed (2021)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/bewmBcjJxHeipS1PNu9Lfyvt3zY.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156850.mkv"
+    Live: true
+} 
+{   Title: "Amor en Rye Lane (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/AcdEqYTTnh6luc2heEsjf0fAI7X.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1156851.mkv"
+    Live: true
+} 
+{   Title: "The Mulligan (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/lx3SoVYVrVxnXwP380KqCnNxHxz.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1157127.mkv"
+    Live: true
+} 
+{   Title: "Monsters of Man (2020)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1f3qspv64L5FXrRy0MF8X92ieuw.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1157128.mkv"
+    Live: true
+} 
+{   Title: "Inside (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/byYLhZLwKAMlLFVEcIH6LMOc5Us.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1157129.mkv"
+    Live: true
+} 
+{   Title: "The World To Come (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://pics.filmaffinity.com/El_mundo_que_viene-833823916-large.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1157130.mkv"
+    Live: true
+} 
+{   Title: "Las aventuras de Maurice (2022) (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/nOc3KwOtTtgXraeBddn3gLpCuaA.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1157132.mkv"
+    Live: true
+} 
+{   Title: "Boon (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/i4zcFYC4ILkvlBl37eHdNYSYvJW.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1157244.mkv"
+    Live: true
+} 
+{   Title: "A játszma (2022)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6Nhm3ZRThp0W97igGTUDNTf25c7.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1157245.mkv"
+    Live: true
+} 
+{   Title: "Infelices para Siempre (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qiAM7Y8xF8wJDDsjeSuLgzyFGmd.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1157246.mkv"
+    Live: true
+} 
+{   Title: "Le Terme di Terezín (2023)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/zie3aYN3aFNWN4iVfCZL5pJgBv9.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1157247.mkv"
+    Live: true
+} 
+{   Title: "Under the Stadium Lights (2021)" 
+    streamFormat: "autodetect"
+    logo: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gSxVt7yW4s8lqnGCCXDGJT2UxMZ.jpg" 
+    Stream: "http://tv.nousiptv.com:8080/movie/Veronicafleitas/2528/1157265.mk"
+    Live: true
+}
+
+  
+ ]
+    return arr
+End Function
+
+Function loadConfig24l7() as Object
+    arr = [
+
+{   Title: "Los Simpsons"
+    streamFormat:"autodetect"
+    Logo: "http://x.playerlatino.live/lossimpsons.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/357"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true  
+}
+{   Title: "El Chavo"
+    streamFormat:"autodetect"
+    Logo: "https://i.pinimg.com/originals/2e/97/a4/2e97a44a1b26e77967cdcfcccd382ef4.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/18576.ts"
+    Live:true      
+}
+{   Title: "Pinky y Cerebro "
+    streamFormat:"autodetect"
+    Logo: "http://x.playerlatino.live/pinkyycerebro.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/721"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true      
+}
+{   Title: "Looney Tunes"
+    streamFormat:"autodetect"
+    Logo: "https://i.pinimg.com/originals/a6/01/6a/a6016a4613298464a7b72aeea9b2c890.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/524"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"  
+    Live:true       
+}
+{   Title: "Coraje El Perro Cobarde"
+    streamFormat:"autodetect"
+    Logo: "https://x.playerlatino.live/coraje.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/519"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"  
+    Live:true     
+}
+{   Title: "Futurama"
+    streamFormat:"autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Futurama_1999_logo.svg/1280px-Futurama_1999_logo.svg.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/29407.ts"
+    UserAgent: ""  
+    Live:true       
+}
+{   Title: "La Vaca y ElPollito"
+    streamFormat:"autodetect"
+    Logo: "https://x.playerlatino.live//lavacayelpollito.png"
+    Stream: "http://tv.nousiptv.com:8080/live/Veronicafleitas/2528/1140316.ts"
+    UserAgent: ""  
+    Live:true   
+}
+{   Title: "Dinosaurios"
+    streamFormat:"autodetect"
+    Logo: "https://miro.medium.com/max/690/1*5FDqv_Jqlk___XP0eFZptQ.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/670"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"  
+    Live:true      
+}
+{   Title: "El Gallo Claudio "
+    streamFormat:"autodetect"
+    Logo: "https://x.playerlatino.live//elgalloclaudio.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/845"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"  
+    Live:true      
+}
+{   Title: "Supercampeones"
+    streamFormat:"autodetect"
+    Logo: "https://i.pinimg.com/originals/2e/90/10/2e90102e5cf32c96e5bbc436938f8c6d.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/432"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"  
+    Live:true      
+}
+{   Title: "Dragon Ball"
+    streamFormat:"autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Dragon_Ball_anime_logo.png"
+    Stream: "https://6362ca6f1fc28.streamlock.net/8066/8066/playlist.m3u8"
+    UserAgent: ""  
+    Live:true 
+}
+{   Title: "Dragon Ball Z"
+    streamFormat:"autodetect"
+    Logo: "https://logos-marcas.com/wp-content/uploads/2021/02/Dragon-Ball-Logo.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/329"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"  
+    Live:true       
+}
+{   Title: "Dragon Ball Gt"
+    streamFormat:"autodetect"
+    Logo: "https://static.wikia.nocookie.net/dragonball/images/5/5e/DBGT_%28Logo_2%29.png/revision/latest?cb=20120920211725&path-prefix=es"
+    Stream: "https://u.m3uts.xyz/stream/hls/520"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"  
+    Live:true     
+}
+{   Title: "Dragon Ball Super"
+    streamFormat:"autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/2/22/Dragon_Ball_Super.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/424"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"  
+    Live:true     
+}
+{   Title: "Los caballeros del Zodiaco"
+    streamFormat:"autodetect"
+    Logo: "https://x.playerlatino.live//caballeroszodiaco.png"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"  
+    Live:true      
+}
+{   Title: "El Principe Del Rap"
+    streamFormat:"autodetect"
+    Logo: "https://static.wixstatic.com/media/2cfd46_81087584be574ade8ef5fae232aba4db~mv2.png/v1/fill/w_469,h_150,al_c,q_85,usm_0.66_1.00_0.01/El%20Principe%20del%20rap%20latino.webp"
+    Stream: "https://u.m3uts.xyz/stream/hls/430"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"  
+    Live:true      
+}
+{   Title: "Malcolm El De Enmedio"
+    streamFormat:"autodetect"
+    Logo: "http://x.playerlatino.live/malcolm.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/798"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"  
+    Live:true      
+}
+{   Title: "Smallville"
+    streamFormat:"autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKI-vh2QbryXp6nZmsonzw1ha2E6U3KSg0VQ&usqp=CAU"
+    Stream: "https://u.m3uts.xyz/stream/hls/673"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live:true      
+}
+{   Title: "The Big Bang Theory"
+    streamFormat:"autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDjnJFBkm9si2Iei4H0pr-X5omAQR074NCiw&usqp=CAU"
+    Stream: "https://u.m3uts.xyz/stream/hls/676"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live:true   
+}
+{   Title: "Mr Bean"
+    streamFormat:"autodetect"
+    Logo: "https://cdn2.steamgriddb.com/file/sgdb-cdn/logo_thumb/6af814698155afb9511dd5e91454834a.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/431"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live:true      
+}
+{   Title: "Pokemon"
+    streamFormat:"autodetect"
+    Logo: "http://x.playerlatino.live/pokemon.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/420"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true     
+}
+{   Title: "Prison Break"
+    streamFormat:"autodetect"
+    Logo: "http://x.playerlatino.live//breakingbad.png"
+    Stream: "https://u.m3uts.xyz/stream/hls/846"
+    UserAgent: "https-user-agent=Ultimate Player/1.0.1"
+    Live: true     
+}
+
+
+ ]
+    return arr
+End Function
+
+Function loadConfigEntretenimiento() as Object
+    arr = [
+{   Title: "El Gourmet"
+    streamFormat: "autodetect"
+    Logo: "https://revistamomentos.co/wp-content/uploads/2017/05/Logo-El-Gourmet.png"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=74&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8"
+    Live: true
+}
+{   Title: "Food NetworK"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Food_Network_New_Logo.png"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=2145&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8"
+    Live: true
+}
+{   Title: "Hola TV"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Y3HKeLYH9IL8_Sc-ktqNt7xDdbDRKoVKoA&usqp=CAU"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=219&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8.m3u8"
+    Live: true
+}
+{   Title: "LifeTime"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/1280px-Logo_Lifetime_2020.svg.png"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=94&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8"
+    Live: true
+}
+{   Title: "A3cine"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/e/e1/A3Cine.png"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=3112&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8"
+    Live: true
+}
+{   Title: "Antena 3"
+    streamFormat: "autodetect"
+    Logo: "https://1000marcas.net/wp-content/uploads/2021/04/Antena-3-Logo-2014.png"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=199&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8"
+    Live: true
+}
+{   Title: "Mas Chic"
+    streamFormat: "autodetect"
+    Logo: "http://ondemo.tmsimg.com/assets/s17457_h3_aa.png?w=360&h=270"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=1842&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8"
+    Live: true
+}
+{   Title: "Tru Tv"
+    streamFormat:"autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/0/01/TruTV.png"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=79&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8"
+    Live:true
+}
+{   Title: "Garage Tv"
+    streamFormat: "autodetect"
+    Logo: "https://www.foromedios.com/uploads/monthly_2018_04/small.5acd523361c47_ElGarage.png.87cfc1a1360ff1a64a55ad672e61ac78.png"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=75&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8"
+    Live: true
+}
+{   Title: "I Sat"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/I.Sat_logo.svg/1280px-I.Sat_logo.svg.png"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=135&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8"
+    Live: true
+}
+{   Title: "Europa Channel"
+    streamFormat: "autodetect"
+    Logo: "https://ewsat.com/img/EUROPA_EUROPA.png"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=136&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8"
+    Live: true
+}
+{   Title: "Sundance Tv"
+    streamFormat: "autodetect"
+    Logo: "https://images.amcnetworks.com/festival.sundancetv.com/wp-content/uploads/2017/12/sundance_tv_logo.png"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=69&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8"
+    Live: true
+}
+{   Title: "HGTV"
+    streamFormat: "autodetect"
+    Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/1200px-HGTV_US_Logo_2015.svg.png"
+    Stream: "https://totalgo.totalplay.com.mx:444/KAN-HLSWeb/liveAdaptive?l=3105&f=HLSAD&s=hkc26at86kbpzzczca1k8tpbxazkck268p1xpcp1ztvcx8jj68bxhj61kzxtbkcj8b2j8xaj6kxtxjtx1tpepb8jzz8j6pz6ack2a8t18zpcajhxpa22bbzx8jzxbjhj8tjz8c2jzhjkcek68tkkzajeckbvevkxzkxpkpp68ah2x2aek1ta82bjvjjhvpcb18eepa8tzx2kxbbhkvc8bebx81jzhvtbkhethb16jtat1btcj128tzthkezxk66a1xav1pcxbvk1txz2avze68vjbjkcj8cvtbpx2xavkzpxapppjjexkhbbjae8kaha.m3u8"
+    Live: true
+}
+
+
+ ]
+    return arr
+End Function
+
+Function loadConfigSelena() as Object
+    arr = [
+    
+{   Title: "Cap 1 El problema con el pez dorado"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVq31WIpgkhg88msuQAu6t1N5zLaMhdnCTaw&usqp=CAU"
+    Stream: "http://live.budtvlight.com:25461/series//54075.mp4"
+    Live: false
+}
+{   Title: "Cap 2 Dame el control"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVq31WIpgkhg88msuQAu6t1N5zLaMhdnCTaw&usqp=CAU"
+    Stream: "http://live.budtvlight.com:25461/series//54076.mp4"
+    Live: false
+}
+{   Title: "Cap 3 Alguien amistoso"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVq31WIpgkhg88msuQAu6t1N5zLaMhdnCTaw&usqp=CAU"
+    Stream: "http://live.budtvlight.com:25461/series//61394.mp4"
+    Live: false
+}
+{   Title: "Cap 4 La tumba"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVq31WIpgkhg88msuQAu6t1N5zLaMhdnCTaw&usqp=CAU"
+    Stream: "http://live.budtvlight.com:25461/series//61395.mp4"
+    Live: false
+}
+{   Title: "Cap 5 El psiquiátrico"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVq31WIpgkhg88msuQAu6t1N5zLaMhdnCTaw&usqp=CAU"
+    Stream: "http://live.budtvlight.com:25461/series//61396.mp4"
+    Live: false
+}
+{   Title: "Cap 6 Dioses y monstruos"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVq31WIpgkhg88msuQAu6t1N5zLaMhdnCTaw&usqp=CAU"
+    Stream: "http://live.budtvlight.com:25461/series//61397.mp4"
+    Live: false
+}
+
+ ]
+    return arr
+End Function
+
+Function loadConfigChucky() as Object
+    arr = [
+
+{   Title: "Cap 1"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u3qPp64zIGHUrNv55ysqd_ztMI8QygkHNQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323309.mkv"         
+    Live: false
+}
+{   Title: "Cap 2"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u3qPp64zIGHUrNv55ysqd_ztMI8QygkHNQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323310.mkv"         
+    Live: false
+}
+{   Title: "Cap 3"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u3qPp64zIGHUrNv55ysqd_ztMI8QygkHNQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323311.mkv"         
+    Live: false
+}
+{   Title: "Cap 4"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u3qPp64zIGHUrNv55ysqd_ztMI8QygkHNQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323312.mkv"         
+    Live: false
+}
+{   Title: "Cap 5"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u3qPp64zIGHUrNv55ysqd_ztMI8QygkHNQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323313.mkv"         
+    Live: false
+}
+{   Title: "Cap 6"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u3qPp64zIGHUrNv55ysqd_ztMI8QygkHNQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323314.mkv"         
+    Live: false
+}
+{   Title: "Cap 7"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u3qPp64zIGHUrNv55ysqd_ztMI8QygkHNQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323315.mkv"         
+    Live: false
+}
+{   Title: "Cap 8"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u3qPp64zIGHUrNv55ysqd_ztMI8QygkHNQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323316.mkv"         
+    Live: false
+}
+{   Title: "Cap 9"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u3qPp64zIGHUrNv55ysqd_ztMI8QygkHNQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323317.mkv"         
+    Live: false
+}
+{   Title: "Cap 10"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u3qPp64zIGHUrNv55ysqd_ztMI8QygkHNQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323318.mkv"         
+    Live: false
+}
+{   Title: "Cap 11"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u3qPp64zIGHUrNv55ysqd_ztMI8QygkHNQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323319.mkv"         
+    Live: false
+}
+{   Title: "Cap 12"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u3qPp64zIGHUrNv55ysqd_ztMI8QygkHNQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323320.mkv"         
+    Live: false
+}
+
+
+
+]
+ return arr
+End Function
+
+Function loadConfigArcane() as Object
+    arr = [
+    
+{   Title: "Cap 1 "
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6JdiFZxBxz8vKgC5q7RR5QRHrOJEQ9Z1eNkPtC0HuAYN32w7ir1dyIsN0&s=10"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1127018.mkv"         
+    Live: false
+}
+{   Title: "Cap 2 "
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6JdiFZxBxz8vKgC5q7RR5QRHrOJEQ9Z1eNkPtC0HuAYN32w7ir1dyIsN0&s=10"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1127019.mkv"         
+    Live: false
+}
+{   Title: "Cap 3 "
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6JdiFZxBxz8vKgC5q7RR5QRHrOJEQ9Z1eNkPtC0HuAYN32w7ir1dyIsN0&s=10"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1127357.mkv"         
+    Live: false
+}
+{   Title: "Cap 4 "
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6JdiFZxBxz8vKgC5q7RR5QRHrOJEQ9Z1eNkPtC0HuAYN32w7ir1dyIsN0&s=10"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1129097.mkv"         
+    Live: false
+}
+{   Title: "Cap 5 "
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6JdiFZxBxz8vKgC5q7RR5QRHrOJEQ9Z1eNkPtC0HuAYN32w7ir1dyIsN0&s=10"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1129098.mkv"         
+    Live: false
+}
+
+    
+]
+ return arr
+End Function
+
+Function loadConfigPeacemaker() as Object
+    arr = [
+    
+{   Title: "Cap 1"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs48u83yli6bvMMvO8uO7j6QZ7bPfXoXRoEQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/318777.mkv"         
+    Live: false
+}    
+{   Title: "Cap 2"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs48u83yli6bvMMvO8uO7j6QZ7bPfXoXRoEQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/318778.mkv"         
+    Live: false
+}    
+{   Title: "Cap 3"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs48u83yli6bvMMvO8uO7j6QZ7bPfXoXRoEQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/320204.mkv"         
+    Live: false
+} 
+{   Title: "Cap 4"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs48u83yli6bvMMvO8uO7j6QZ7bPfXoXRoEQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/320852.mkv"         
+    Live: false
+}
+{   Title: "Cap 5"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs48u83yli6bvMMvO8uO7j6QZ7bPfXoXRoEQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/321930.mkv"         
+    Live: false
+}
+{   Title: "Cap 6"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs48u83yli6bvMMvO8uO7j6QZ7bPfXoXRoEQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/323577.mkv"         
+    Live: false
+}  
+{   Title: "Cap 7"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs48u83yli6bvMMvO8uO7j6QZ7bPfXoXRoEQ&usqp=CAU"
+    Stream: "http://compitv.info:8080/series/Alejandro1/Alejandro1/324535.mkv"         
+    Live: false
+}
+
+
+]
+ return arr
+End Function    
+
+Function loadConfigBobafet() as Object
+    arr = [
+    
+{   Title: "Cap 1 Contacto"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOOT7NtBCujiJVONQjlwt1M1cvyewE2rXcCg&usqp=CAU"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1124101.mkv"         
+    Live: false
+} 
+{   Title: "Cap 2 Desatado"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOOT7NtBCujiJVONQjlwt1M1cvyewE2rXcCg&usqp=CAU"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1124102.mkv"         
+    Live: false
+}    
+{   Title: "Cap 3 Surgimiento"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOOT7NtBCujiJVONQjlwt1M1cvyewE2rXcCg&usqp=CAU"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1124103.mkv"         
+    Live: false
+} 
+{   Title: "Cap 4 Vuelta A Casa"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOOT7NtBCujiJVONQjlwt1M1cvyewE2rXcCg&usqp=CAU"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1124104.mkv"         
+    Live: false
+}
+{   Title: "Cap 5 Ajuste de cuentas"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOOT7NtBCujiJVONQjlwt1M1cvyewE2rXcCg&usqp=CAU"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1124105.mkv"         
+    Live: false
+}
+{   Title: "Cap 6 Consuelo"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOOT7NtBCujiJVONQjlwt1M1cvyewE2rXcCg&usqp=CAU"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1124106.mkv"         
+    Live: false
+}
+{   Title: "Cap 7 Herencia"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOOT7NtBCujiJVONQjlwt1M1cvyewE2rXcCg&usqp=CAU"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1124107.mkv"         
+    Live: false
+}
+{   Title: "Cap 8 Lealtad"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOOT7NtBCujiJVONQjlwt1M1cvyewE2rXcCg&usqp=CAU"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1125722.mkv"         
+    Live: false
+}
+{   Title: "Cap 9 Trascendencia"
+    streamFormat: "autodetect"
+    Logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOOT7NtBCujiJVONQjlwt1M1cvyewE2rXcCg&usqp=CAU"
+    Stream: "http://tv.nousiptv.com:8080/series/mcaor/4727/1126002.mkv"         
+    Live: false
+}
+    
+ ]
+ return arr
+End Function       
